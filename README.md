@@ -3,7 +3,7 @@
 所以最近就自己动手画了一个圆环图，每个圆环部分表示对映相所占总数 的比例，下面有图例来表示，如图：
 
 
-![](http://i1.piimg.com/4851/4d5ebc3ae7ad1e8e.jpg)
+![](http://p1.bqimg.com/4851/60f1603a52d543ee.jpg)
 
 使用起来也很简单：
 ```
@@ -53,6 +53,6 @@ circleRoundView.setLable(lable);
 circleRoundView.setLegendColumn(3);
 
 ```
-
-主要就是练习绘制的过程及api，熟悉canvas.save()及canvas.restore()方法，canvas动画的执行放在两者之间，canvas.rotate(),防止中心圆及其他区域会跟着旋转。
+绘制出来之后，可以点击相应的部分，会跟其他部分分离开，起到凸显作用。
+绘制该view主要就是练习绘制的过程及api，熟悉canvas.save()及canvas.restore()方法，canvas动画的执行放在两者之间，canvas.rotate(),防止中心圆及其他区域会跟着旋转。
 有这方面需求的可以做个参考，希望可以帮到你~
