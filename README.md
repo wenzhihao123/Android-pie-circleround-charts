@@ -3,7 +3,7 @@
 所以最近就自己动手画了一个圆环图，每个圆环部分表示对映相所占总数 的比例，下面有图例来表示，如图：
 
 
-![](http://p1.bqimg.com/4851/60f1603a52d543ee.jpg)
+![](http://ww3.sinaimg.cn/large/0060lm7Tgw1f9qlq61ar5j30b40iiq3j.jpg)
 
 使用起来也很简单：
 ```
