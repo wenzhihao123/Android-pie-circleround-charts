@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleRound">
+        <attr name="mtitle" format="string"/>
+        <attr name="mtitleTextColor" format="color"/>
+        <attr name="mtitleTextSize" format="dimension"/>
+
+        <attr name="stitle" format="string"/>
+        <attr name="stitleTextColor" format="color"/>
+        <attr name="stitleTextSize" format="dimension"/>
+
+        <attr name="centerBackgroundColor" format="color"/>
+
+        <attr name="legendColumn" format="integer"/>
+        <attr name="legendTextColor" format="color"/>
+        <attr name="legendTextSize" format="dimension"/>
+
+        <attr name="isRotate" format="boolean"/>
+
+    </declare-styleable>
+
+
+</resources>

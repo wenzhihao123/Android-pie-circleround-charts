@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="@android:dimen/app_icon_size"
+        toolbar:titleTextColor="@android:color/white"
+        toolbar:titleMargins="10dp"
+        toolbar:title="环形图和饼图">
+    </android.support.v7.widget.Toolbar>
+    <Button
+        android:id="@+id/circleRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="圆环图" />
+    <Button
+        android:id="@+id/pie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="饼图" />
+
+</LinearLayout>
